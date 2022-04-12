@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Fonts Requaireds -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"> 
+
+	<!-- CSS Requaireds -->
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- JS Reuaireds -->
+	<script src="js/script.js" defer></script>
+	<title>Movea</title>
+</head>
+<body>
+	<div class="grid-init grid">
+		<header class="header">
+			<div class="header__wrap">
+				<a href="#" class="header__logo">Movea</a>
+				<nav class="header__nav">
+					<a href="#">Movies</a>
+					<a href="#">TV shows</a>
+					<a href="#">Animations</a>
+					<a href="#">Plans</a>
+				</nav>
+				<form action="#" class="header__search" method="GET">
+					<input type="text" placeholder="Search...">
+				</form>
+				<div class="header__date">
+					<div class="date__time">19:55</div>
+					<div class="date__days">March 30</div>
+				</div>
+				<div class="header__profile">
+					<img src="img/avatar.png" alt="Ваша аватарка">
+				</div>
+			</div>
+		</header>
+		<aside class="aside box-init">
+			<div class="aside__wrap">
+				<div class="aside__top">
+					<div class="aside__trailers">
+						<div class="trailer__title">
+							<h3 class="main__title">New trailers</h3>
+							<div class="title__sort">
+								<div class="sort__header">Sort By</div>
+								<div class="sort__block">
+									<span>Today</span>
+									<div class="sort__img">
+										<img src="img/arrow-top.svg" alt="Стрелочка вверх">
+										<img src="img/arrow-bottom.svg" alt="Стрелочка вниз">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="trailer__items">
+							<div class="trailer__item">
+								<div class="trailer__views">Views 4.5k</div>
+								<div class="trailer__footer">
+									<h2 class="trailer__name">Batman 2022</h2>
+									<div class="trailer__date">Dec 2022</div>
+								</div>
+								<div class="button-play__wrap">
+									<div class="button-play"></div>
+								</div>
+							</div>
+							<div class="trailer__item">
+								<div class="trailer__views">Views 4.5k</div>
+								<div class="trailer__footer">
+									<h2 class="trailer__name">Batman 2022</h2>
+									<div class="trailer__date">Dec 2022</div>
+								</div>
+								<div class="button-play__wrap">
+									<div class="button-play"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="aside__bottom">
+					<div class="aside__genres">
+						<h3 class="genres__title">Favourite genres</h3>
+						<div class="genres__items">
+							<div class="genres__item bg-purple">Action</div>
+							<div class="genres__item bg-orange">Western</div>
+							<div class="genres__item bg-purple">Adventures</div>
+							<div class="genres__item bg-orange">Drama</div>
+							<div class="genres__item bg-cyan">Comedy</div>
+						</div>
+						<div class="genres__add">
+							<div class="genres__add-header">
+								<span class="genres__add-btn">+</span> <h4 class="genress__add-text">Add your favourite genres</h4>
+							</div>
+							<div class="genres__items">
+								<div class="genres__item bg-dark">Drama</div>
+								<div class="genres__item bg-dark">Comedy</div>
+								<div class="genres__item bg-dark">Comedy</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</aside>
+		<main class="main">
+			<section class="main-display">
+				<div class="main-display__main-trailer">
+					<div class="main-trailer__views">Views 77k</div>
+					<div class="main-trailer__text">
+						<h1 class="main-trailer__title">Spider-Man: No Way Home</h1>
+						<div class="main-trailer__date">Feb 2021</div>
+					</div>
+					<div class="button-play__wrap">
+						<div class="button-play"></div>
+					</div>
+				</div>
+				<div class="main-display__trands">
+					<div class="title">
+						<div class="title__left">
+							<h2 class="title__main">Continue Watching</h2>
+							<div class="title__count">4 Movies</div>
+						</div>
+						<div class="title__right">
+							<span>All movies</span>
+							<img src="img/arrow-right.svg" alt="Стрелочка вправо">
+						</div>
+					</div>
+					<div class="main-display__films">
+						<div class="film__item">
+							<div class="film__plash">#1 Trending 🔥</div>
+							<div class="film__footer">
+								<div class="button-play__wrap small">
+									<div class="button-play"></div>
+								</div>
+								<div class="film__text">
+									<h3 class="film__name">Spider-Man: No Way Home</h3>
+									<div class="film__date">Feb 2021</div>
+								</div>
+								<div class="film__right">
+									<div class="film__time">02:30:00</div>
+								</div>
+							</div>
+						</div>
+						<div class="film__item">
+							<div class="film__footer">
+								<div class="button-play__wrap small">
+									<div class="button-play"></div>
+								</div>
+								<div class="film__text">
+									<h3 class="film__name">Spider-Man: No Way Home</h3>
+									<div class="film__date">Feb 2021</div>
+								</div>
+								<div class="film__right">
+									<div class="film__time">02:30:00</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="main-display__trands">
+					<div class="title">
+						<div class="title__left">
+							<h2 class="title__main">Popular movies 2021</h2>
+						</div>
+						<div class="title__right">
+							<span>All movies</span>
+							<img src="img/arrow-right.svg" alt="Стрелочка вправо">
+						</div>
+					</div>
+					<div class="main-display__popular">
+						<div class="popular__item">
+							<div class="popular__footer">
+								<div class="button-play__wrap super-small">
+									<div class="button-play"></div>
+								</div>
+								<div class="popular__text">
+									<h4 class="popular__name">Spider-Man: No Way Home</h4>
+									<div class="popular__date">Feb 2021</div>
+								</div>
+								<div class="popular__rating">
+									<img src="img/rating-star.svg" alt="Звезда рейтинга">
+									<span>4,7</span>
+								</div>
+							</div>
+						</div>
+						<div class="popular__item">
+							<div class="popular__footer">
+								<div class="button-play__wrap super-small">
+									<div class="button-play"></div>
+								</div>
+								<div class="popular__text">
+									<h4 class="popular__name">Spider-Man: No Way Home</h4>
+									<div class="popular__date">Feb 2021</div>
+								</div>
+								<div class="popular__rating">
+									<img src="img/rating-star.svg" alt="Звезда рейтинга">
+									<span>4,7</span>
+								</div>
+							</div>
+						</div>
+						<div class="popular__item">
+							<div class="popular__footer">
+								<div class="button-play__wrap super-small">
+									<div class="button-play"></div>
+								</div>
+								<div class="popular__text">
+									<h4 class="popular__name">Spider-Man: No Way Home</h4>
+									<div class="popular__date">Feb 2021</div>
+								</div>
+								<div class="popular__rating">
+									<img src="img/rating-star.svg" alt="Звезда рейтинга">
+									<span>4,7</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+	</div>
+
+	<div class="modal no-active">
+		<div class="modal__inner">
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/JfVOs4VSpmA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+	</div>
+</body>
+</html>
